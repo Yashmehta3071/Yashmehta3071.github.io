@@ -1,0 +1,8 @@
+#background-profile-image {
+    height:1000px;
+    background: url("pexels-cottonbro-5483077.jpg") no-repeat fixed;
+    background-size: cover; /* or contain depending on what you want */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
