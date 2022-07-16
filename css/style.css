@@ -1,6 +1,6 @@
 #background-profile-image {
     height:1000px;
-    background: url("pexels-cottonbro-5483077.jpg") no-repeat fixed;
+    background: url("../img/pexels-cottonbro-5483077.jpg") no-repeat fixed;
     background-size: cover; /* or contain depending on what you want */
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -17,11 +17,11 @@ p {
 }
 .work-experience-background{
     min-height: 900px;
-    background: url("../work-exp-dark-background.jpg") no-repeat fixed;
+    background: url("../img/work-exp-dark-background.jpg") no-repeat fixed;
     background-size: cover;
 }
 .education-background {
     min-height: 700px;
-    background: url("../education-background.jpg") no-repeat fixed;
+    background: url("../img/education-background.jpg") no-repeat fixed;
     background-size: cover;    
 }
