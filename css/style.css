@@ -5,4 +5,23 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    padding-top: 12rem; /* Padding to veritcally push text downwards*/
   }
+
+a {
+    text-decoration: none; /*to remove underline from link text*/
+}
+
+p {
+    margin-bottom: 0;
+}
+.work-experience-background{
+    min-height: 900px;
+    background: url("../work-exp-dark-background.jpg") no-repeat fixed;
+    background-size: cover;
+}
+.education-background {
+    min-height: 700px;
+    background: url("../education-background.jpg") no-repeat fixed;
+    background-size: cover;    
+}
