@@ -1,72 +1,96 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!--  -->
+    <!-- inspired by https://www.garysheng.com/ -->
+    <!--  -->
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- Custome CSS -->
-    <link rel="stylesheet" href="./css/style.css" class="css">
-
-    <title>Portfolio</title>
+    <!-- Custom CSS at css/style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Yash Mehta</title>
   </head>
   <body>
 
-    <div class="container my-5">
-      <h1>Hi this is the start of my website!! </h1>
-      <p class="lead">enjoys dev and design, programming</p>
-    </div>
-
-    <div class="container"><nav>
-      <ul class="nav nav-pills">
-          <li class="nav-item activ">
-            <a href="#" class="nav-link active">home</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">Portfolio</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">Skills</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">Contact Me</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="container mt-5">
-      <div class="row">
-        <div class="card">
-          <div class="card-body">
-            <div class="col">
-              <h3 class="mb-3">Work Experience</h3>
-              <h4>Job title</h4>
-              <div><strong>20xx-current</strong></div>
-              Discritpion of the job
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">things i've done in job</li>
-                <li class="list-group-item">things i've done in job</li>
-                <li class="list-group-item">things i've done in job</li>
-                <li class="list-group-item">can add more things </li>
-              </ul>
+    <!-- Main intro banner -->
+    <div class="container-fluid fill-height p-0">
+        <div id="background-profile-image" class="bg-image fill-height d-flex justify-content-center p-5">
+            <div class="text-white">
+                <h1 >Hey, I'm</h1>
+                <div class="display-1 my-3"><a href="#" class="text-white">Yash Mehta</a></div>
+                <small class="d-block">IAM Engineer at Coles, Melbourne</small>
+                <small class="d-block">Computer Science Student at Swinburne University, Melbourne</small>
             </div>
-          </div>
         </div>
-        <div class="col">
-          <h3 class="mb-3">Skills</h3>
-
-        </div>
-      </div>
     </div>
 
+    <!-- Work Experience section -->
+    <div class="container-fluid work-experience-background p-5">
+        <div class="d-flex justify-content-center text-white"><h1>------ Work Experience ------</h1></div>
+        
+        <div class="row">
+            <div class="col-sm-4 pt-5 d-flex flex-column align-items-end text-white">
+                <div>COLES LOGO</div>
+                <p>Feb 2022 - Present</p>
+            </div>
+            <div class="col-sm-8 p-3">
+                <div class="card shadow-lg rounded">
+                    <div class="card-header">
+                        <h4 class="card-title">IAM Engineer</h4>
+                        <p>Cols Store Support Center</p>
+                        <small>Melbourne VIC AU </small>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>what I'm doing as an IAM engineer</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                            <li>item 4</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
 
-
-
-
-
+    <!-- Education section -->
+    <div class="container-fluid education-background">
+        <div class="d-flex justify-content-center p-3"><h1>------ Education ------</h1></div>
+        
+        <div class="row">
+            <div class="col-sm-4 pt-5 d-flex flex-column align-items-end">
+                <div>SWINBURNE LOGO</div>
+                <small>Swinburne University of Technology</small>
+                <small>Melbourne VIC AU</small>
+                <p>JUL 2019 - JUL 2023</p>
+            </div>
+            <div class="col-sm-8 p-3">
+                <div class="card shadow-lg rounded">
+                    <div class="card-header">
+                        <h4 class="card-title">Bachelor of Computer Science</h4>
+                        <p>Major: Data Science</p>
+                        <p>Minor: Entreprunership</p>
+                        
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>what I'm doing as an IAM engineer</li>
+                            <li>item 2</li>
+                            <li>item 3</li>
+                            <li>item 4</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
