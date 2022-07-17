@@ -8,6 +8,11 @@
     padding-top: 12rem; /* Padding to veritcally push text downwards*/
   }
 
+.light-black-background {
+    background-color: black;
+    opacity: 0.5;
+}
+
 .push-bottom {
     position:absolute;
     bottom:0;
