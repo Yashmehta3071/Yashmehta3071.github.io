@@ -1,5 +1,5 @@
 #background-profile-image {
-    height:1000px;
+    height:900px;
     background: url("../img/pexels-cottonbro-5483077.jpg") no-repeat fixed;
     background-size: cover; /* or contain depending on what you want */
     -webkit-background-size: cover;
