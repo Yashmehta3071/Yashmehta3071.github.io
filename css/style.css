@@ -8,8 +8,19 @@
     padding-top: 12rem; /* Padding to veritcally push text downwards*/
   }
 
+.push-bottom {
+    position:absolute;
+    bottom:0;
+}
+
 a {
     text-decoration: none; /*to remove underline from link text*/
+    color: inherit;
+}
+
+a:hover {
+    font-size: 105%;
+    color: inherit;
 }
 
 p {
