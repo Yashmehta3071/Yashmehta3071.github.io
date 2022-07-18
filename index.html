@@ -11,131 +11,312 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Yash Mehta</title>
   </head>
-  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
-    <!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-      <ul class="navbar-nav text-white">
-        <li class="px-2">
-            <!-- Button to open the offcanvas sidebar -->
-            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#my-offcanvas">
-                >
-            </button>
-        </li>
-        <li class="p-2"><a href="#home">Home</a></li>
-        <li class="p-2"><a href="#work-experience">Work Experience</a></li>
-        <li class="p-2"><a href="#education">Education</a></li>
-    </nav>
+        <!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <ul class="navbar-nav text-white">
+            <li class="px-2">
+                <!-- Button to open the offcanvas sidebar -->
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#my-offcanvas">
+                    >
+                </button>
+            </li>
+            <li class="p-2"><a href="#home">Me</a></li>
+            <li class="p-2"><a href="#work-experience">My Work Experience</a></li>
+            <li class="p-2"><a href="#education">My Education</a></li>
+            <li class="p-2"><a href="#skills">My Skills</a></li>
+            <li class="p-2"><a href="#projects">My Projects</a></li>
+            <li class="p-2"><a href="#hobby">My Hobbies</a></li>
+        </nav>
 
-    <!-- Progress bar
-    <div class="container-fluid">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%; height:5rem;"></div>
-    </div> -->
+        <!-- Progress bar
+        <div class="container-fluid">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%; height:5rem;"></div>
+        </div> -->
 
-    <!-- Offcanvas Sidebar -->
-    <div class="offcanvas offcanvas-start" id="my-offcanvas">
-        <div class="offcanvas-header">
-            <h1 class="offcanvas-title">???</h1>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
-        </div>
-        <div class="offcanvas-body">
-            <p>Still deciding what to add into this off canvas.</p>
-            <p>Any sugestions?</p>
-            <button class="btn btn-secondary" type="button">A Button</button>
-        </div>
-    </div>
-    
-    <!-- Main intro banner -->
-    <div id="home" class="container-fluid p-0">
-        <div id="background-profile-image" class="bg-image d-flex justify-content-center">
-            <div class="text-white">
-                <div class="light-black-background rounded-3 p-2">
-                <h1 >Hey, I'm</h1>
-                <div class="display-1 my-3"><a href="#" class="text-white">Yash Mehta</a></div>
-                <small class="d-block">IAM Engineer at Coles, Melbourne</small>
-                <small class="d-block">Computer Science Student at Swinburne University, Melbourne</small>
-                </div>
+        <!-- Offcanvas Sidebar -->
+        <div class="offcanvas offcanvas-start" id="my-offcanvas">
+            <div class="offcanvas-header">
+                <h1 class="offcanvas-title">???</h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
             </div>
-            <div class="push-bottom text-white">
-                <p style="font-size: 200%;">
-                    <a href="#work-experience">Click here to explore more!</a>
-                </p>
+            <div class="offcanvas-body">
+                <p>Still deciding what to add into this off canvas.</p>
+                <p>Any sugestions?</p>
+                <button class="btn btn-secondary" type="button">A Button</button>
             </div>
         </div>
-    </div>
-
-    <!-- Work Experience section -->
-    <div id="work-experience" class="container-fluid work-experience-background p-5">
-        <div class="d-flex justify-content-center text-white p-3"><h1>------ Work Experience ------</h1></div>
         
-        <div class="row">
-            <div class="col-sm-4 pt-5 d-flex flex-column align-items-end text-white">
-                <div>COLES LOGO</div>
-                <p>Feb 2022 - Present</p>
-            </div>
-            <div class="col-sm-8 p-3">
-                <div class="card shadow-lg rounded">
-                    <div class="card-header">
-                        <h4 class="card-title">IAM Engineer</h4>
-                        <p>Cols Store Support Center</p>
-                        <small>Melbourne VIC AU </small>
+        <!-- Main intro banner -->
+        <div id="home" class="container-fluid p-0">
+            <div id="background-profile-image" class="bg-image d-flex justify-content-center">
+                <div class="text-white">
+                    <div class="light-black-background rounded-3 p-2">
+                    <h1 >Hey, I'm</h1>
+                    <div class="display-1 my-3"><a href="#" class="text-white">Yash Mehta</a></div>
+                    <small class="d-block">IAM Engineer at Coles, Melbourne</small>
+                    <small class="d-block">Computer Science Student at Swinburne University, Melbourne</small>
                     </div>
-                    <div class="card-body">
-                        <ul>
-                            <li>what I'm doing as an IAM engineer</li>
-                            <li>item 2</li>
-                            <li>item 3</li>
-                            <li>item 4</li>
-                        </ul>
-                    </div>
+                </div>
+                <div class="push-bottom text-white">
+                    <p style="font-size: 200%;">
+                        <a href="#work-experience">Click here to explore more!</a>
+                    </p>
                 </div>
             </div>
         </div>
-    
-    </div>
 
-    <!-- Education section -->
-    <div id="education" class="container-fluid education-background">
-        <div class="d-flex justify-content-center p-3"><h1>------ Education ------</h1></div>
+        <!-- Work Experience section -->
+        <div id="work-experience" class="container-fluid work-experience-background p-5">
+            <div class="d-flex justify-content-center  p-3"><h1>------ Work Experience ------</h1></div>
+            
+            <!-- Coles SSC -->
+            <div class="row">
+                <div class="col-sm-4 pt-5 d-flex flex-column align-items-end">
+                    <div class="shadow-lg"><img src="img/coles-group-logo.jpg" class="img-thumbnail" alt="Coles Group Logo"> </div>
+                    <p>Feb 2022 - Present</p>
+                </div>
+                <div class="col-sm-8 p-3">
+                    <div class="card shadow-lg border rounded">
+                        <div class="card-header">
+                            <h4 class="card-title">IAM Engineer</h4>
+                            <p>Cols Store Support Center</p>
+                            <small>Melbourne VIC AU </small>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>what I'm doing as an IAM engineer</li>
+                                <li>item 2</li>
+                                <li>item 3</li>
+                                <li>item 4</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GC Liquor -->
+            <div class="row">
+                <div class="col-sm-4 pt-5 d-flex flex-column align-items-end">
+                    <div class="shadow-lg"><img src="img/gc-liquor-logo.png" class="img-thumbnail" alt="GC Liquor Logo"> </div>
+                    <p>Apr 2021 - Present</p>
+                </div>
+                <div class="col-sm-8 p-3">
+                    <div class="card shadow-lg border rounded">
+                        <div class="card-header">
+                            <h4 class="card-title">IT Admin</h4>
+                            <p>GC Liquors</p>
+                            <small>Melbourne VIC AU </small>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>item 1</li>
+                                <li>item 2</li>
+                                <li>item 3</li>
+                                <li>item 4</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coles Express -->
+            <div class="row">
+                <div class="col-sm-4 pt-5 d-flex flex-column align-items-end">
+                    <div class="shadow-lg"><img src="img/coles-express-logo.jpg" class="img-thumbnail" alt="Coles Express Logo"> </div>
+                    <p>Mar 2020 - Feb 2022 . 2 yrs</p>
+                </div>
+                <div class="col-sm-8 p-3">
+                    <div class="card shadow-lg border rounded">
+                        <div class="card-header">
+                            <h4 class="card-title">Customer Service Representative</h4>
+                            <p>Coles Express - Auburndale</p>
+                            <small>Melbourne VIC AU </small>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>item 1</li>
+                                <li>item 2</li>
+                                <li>item 3</li>
+                                <li>item 4</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Spark Foundation -->
+            <div class="row">
+                <div class="col-sm-4 pt-5 d-flex flex-column align-items-end">
+                    <div class="shadow-lg"><img src="img/spark-foundation-logo.jpg" class="img-thumbnail" alt="Spark Foundation Logo"> </div>
+                    <p>Jul 2021 - Sep 2021 . 3 mos</p>
+                </div>
+                <div class="col-sm-8 p-3">
+                    <div class="card shadow-lg border rounded">
+                        <div class="card-header">
+                            <h4 class="card-title">Data Analyst</h4>
+                            <p>The Spark Foundation</p>
+                            <small>Melbourne VIC AU </small>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>item 1</li>
+                                <li>item 2</li>
+                                <li>item 3</li>
+                                <li>item 4</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- McDonalds -->
+            <div class="row">
+                <div class="col-sm-4 pt-5 d-flex flex-column align-items-end">
+                    <div class="shadow-lg"><img src="img/mcdonalds-logo.jpg" class="img-thumbnail" alt="McDonalds Logo"> </div>
+                    <p>Nov 2019 - Mar 2020 . 5 mos</p>
+                </div>
+                <div class="col-sm-8 p-3">
+                    <div class="card shadow-lg border rounded">
+                        <div class="card-header">
+                            <h4 class="card-title">Crew Member</h4>
+                            <p>McDonald's StKilda</p>
+                            <small>Melbourne VIC AU </small>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>item 1</li>
+                                <li>item 2</li>
+                                <li>item 3</li>
+                                <li>item 4</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         
-        <div class="row">
-            <div class="col-sm-4 pt-5 d-flex flex-column align-items-end">
-                <div>SWINBURNE LOGO</div>
-                <small>Swinburne University of Technology</small>
-                <small>Melbourne VIC AU</small>
-                <p>JUL 2019 - JUL 2023</p>
-            </div>
-            <div class="col-sm-8 p-3">
-                <div class="card shadow-lg rounded">
-                    <div class="card-header">
-                        <h4 class="card-title">Bachelor of Computer Science</h4>
-                        <p>Major: Data Science</p>
-                        <p>Minor: Entreprunership</p>
-                        
-                    </div>
-                    <div class="card-body">
-                        <ul>
-                            <li>what I'm doing as an IAM engineer</li>
-                            <li>item 2</li>
-                            <li>item 3</li>
-                            <li>item 4</li>
-                        </ul>
+        </div>
+
+        <!-- Education section -->
+        <div id="education" class="container-fluid p-5 education-background">
+            <div class="d-flex justify-content-center text-white p-3"><h1>------ Education ------</h1></div>
+            
+            <div class="row">
+                <div class="col-sm-4 pt-5 d-flex flex-column text-white align-items-end">
+                    <div class="shadow-lg"><img src="img/swinburne-logo.jpg" class="img-thumbnail" alt="Swinburne Logo"> </div>
+                    <small>Swinburne University of Technology</small>
+                    <small>Melbourne VIC AU</small>
+                    <p>JUL 2019 - JUL 2023</p>
+                </div>
+                <div class="col-sm-8 p-3">
+                    <div class="card shadow-lg rounded">
+                        <div class="card-header">
+                            <h4 class="card-title">Bachelor of Computer Science</h4>
+                            <p>Major: Data Science</p>
+                            <p>Minor: Entreprunership</p>
+                            
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>what I'm doing as an IAM engineer</li>
+                                <li>item 2</li>
+                                <li>item 3</li>
+                                <li>item 4</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
+        
         </div>
-    
-    </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+        <!-- Skills Section -->
+        <div id="skills" class="container-fluid bg-dark py-4 skills-background">
+           
+            <div class="d-flex justify-content-center text-white"><h1>------ Skills ------</h1></div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+            <!-- Carousel -->
+            <div id="skills-carousel" class="carousel bg-dark slide p-5" data-bs-ride="carousel">
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
-  </body>
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#skills-carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#skills-carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#skills-carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#skills-carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#skills-carousel" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#skills-carousel" data-bs-slide-to="5"></button>
+                    <button type="button" data-bs-target="#skills-carousel" data-bs-slide-to="6"></button>
+                    <button type="button" data-bs-target="#skills-carousel" data-bs-slide-to="7"></button>
+                    <button type="button" data-bs-target="#skills-carousel" data-bs-slide-to="8"></button>
+                    <button type="button" data-bs-target="#skills-carousel" data-bs-slide-to="9"></button>
+                </div>
+            
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                       <div class="card">
+                            <div class="card-header text-center">
+                                <h1>Programing</h1>
+                            </div>
+                            <div class="card-body skill-card">
+                                <ul class="px10">
+                                    <li style="font-size: 1.5rem;">Advanced level python with libraries such as Django, Pandas, SK learn, numpy</li>
+                                    <li style="font-size: 1.5rem;">Ruby programming language</li>
+                                    <li style="font-size: 1.5rem;">C#, C++, C</li>
+                                </ul>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="card-header text-center">
+                                <h1>Data Science</h1>
+                            </div>
+                            <div class="card-body px10 skill-card">
+                                <p style="font-size: 1.5rem;">Major in Data Science.</p>
+                                <p style="font-size: 1.5rem;">Proficient in Data Science concepts such as regresion</p>
+                                <p style="font-size: 1.5rem;"></p>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card text-center">
+                            <div class="card-header">
+                                <h1>Web Development</h1>
+                            </div>
+                            <div class="card-body skill-card">
+                                <p style="font-size: 1.5rem;">Familier with web concepts such as OSI layer model, socets, DNS, and more...</p>
+                                <p style="font-size: 1.5rem;">Web devlopment with Python Django</p>
+                                <p style="font-size: 1.5rem;">HTML, CSS, JS, Bootstrap, React</p>
+                                <p style="font-size: 1.5rem;">Full stack development with Python</p>
+                                <p style="font-size: 1.5rem;">Full stack development with PHP</p>
+                            </div>
+                       </div>
+                    </div>
+
+                </div>
+            
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#skills-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#skills-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        -->
+    </body>
 </html>

@@ -1,9 +1,9 @@
-.bg-dark {
+/* .bg-dark {
     opacity: 0.95;
     color: white;
     font-weight: bold;
     
-}
+} */
 
 #background-profile-image {
     height:900px;
@@ -38,13 +38,33 @@ a:hover {
 p {
     margin-bottom: 0;
 }
+
+.img-thumbnail {
+    max-width: 100px;
+}
+
 .work-experience-background{
-    min-height: 900px;
-    background: url("../img/work-exp-dark-background.jpg") no-repeat fixed;
+    /* min-height: 900px; */
+    /* background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.95)); */
+    /* background: url("../img/work-exp-dark-background.jpg") no-repeat fixed; */
     background-size: cover;
 }
 .education-background {
-    min-height: 700px;
-    background: url("../img/education-background.jpg") no-repeat fixed;
+    /* min-height: 700px; */
+    background-image: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.3));
+    /* background: url("../img/education-background.jpg") no-repeat fixed; */
     background-size: cover;    
+}
+
+.skill-card {
+    min-height: 20rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter:invert(100%);
+}
+
+.px10 {
+    padding-left: 10%;
 }
