@@ -6,18 +6,14 @@
 } */
 
 #background-profile-image {
-    height:900px;
-    background: url("../img/pexels-cottonbro-5483077.jpg") no-repeat fixed;
-    background-size: cover; /* or contain depending on what you want */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    padding-top: 12rem; /* Padding to veritcally push text downwards*/
-  }
+    height:950px;
+    background: url("../img/endless-constellation.svg") fixed;
+    padding-top: 12rem;
+}
 
 .light-black-background {
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 .push-bottom {
@@ -59,7 +55,7 @@ p {
 .skill-card {
     min-height: 20rem;
 }
-
+/* add media query that this should only apply for screen wider then 567px */
 .carousel-control-prev,
 .carousel-control-next {
     filter:invert(100%);
@@ -68,3 +64,4 @@ p {
 .px10 {
     padding-left: 10%;
 }
+
