@@ -6,7 +6,7 @@
 } */
 
 #background-profile-image {
-    height:950px;
+    height:100vh;
     background: url("../img/endless-constellation.svg") fixed;
     padding-top: 12rem;
 }
@@ -16,10 +16,10 @@
     opacity: 0.9;
 }
 
-.push-bottom {
+/* .push-bottom {
     position:absolute;
     bottom:0;
-}
+} */
 
 a {
     text-decoration: none; /*to remove underline from link text*/
